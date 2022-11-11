@@ -187,4 +187,8 @@ a{
         text-shadow: 5px 5px 2px #E7E9EB;
         
     }
+
+    #footer_section{
+        margin-top: 5rem !important;
+    }
 }
