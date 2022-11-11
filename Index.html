@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="google" content="notranslate">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="English text to Korean." />
+  <meta name="keywords" content="Hangul, Hangeul, English to Korean or Korean to English" />
+  <meta name="author" content="James Paul Espeña" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/DIST/semantic.min.css" />
+  <link rel="stylesheet" href="/CSS/override.css" />
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css" />
+  <link rel="stylesheet" href="/CSS/animate.min.css" />
+  <link rel="stylesheet" href="/CSS/sweetalert2.min.css" />
+  <script src="/JS/jquery-3.1.1.min.js"></script>
+  <link rel="icon" type="image/x-icon" href="/IMG/hangeul.jpg" />
+
+  <!--Start of Title-->
+  <title>K-Word Finder - A tool that can convert English Word to Korean or Vice Versa.</title>
+</head>
+
+<body>
+
+
+  <!--Start of Body-->
+  <div id="main_component">
+    <div id="translation">
+      <p id="hangeul"></p>
+    </div>
+
+    <div id="search_field">
+      <div class="ui search">
+        <div class="ui icon input">
+          <input class="prompt" type="text" placeholder="English to 한국어 or 한국어 to English" />
+          <i class="search icon"></i>
+        </div>
+        <div class="results"></div>
+      </div>
+    </div>
+
+    <button id="btn_fetch"></button>
+  </div>
+
+
+  <!--Footer-->
+  <div id="footer_section">
+    <div class="ui divider"></div>
+    <div class="seven wide right floated column">
+      <h4 class="ui header">
+        <div id="btn_holder">
+          <button class="circular ui icon button"></button> <i title="View me via GITHUB" class="fa-brands fa-github"
+            onclick="window.open('https://github.com/rockstartraders', '_blank')"></i>
+          </button>
+          <button class="circular ui icon button">
+            <i onclick="window.open('https://k-jumble.netlify.com/', '_blank')" class="fa-solid fa-house-chimney"></i>
+          </button>
+          <a data-tooltip="Developers Information." data-position="top left" href="https://jamespaulespena.netlify.app/" target="_blank">
+            <p id="devTxt" >James Paul R. Espeña ❤️</p>
+          </a>
+        </div>
+      </h4>
+      <br>
+    </div>
+  </div>
+  </div>
+
+
+
+
+  <!--This is for Script -->
+  <script script type="text/javascript" src="/DIST/semantic.min.js"></script>
+  <script script type="text/javascript" src="/JS/sweetalert2.min.js"></script>
+  <script script type="text/javascript" src="/JS//Vocab.js"></script>
+  <script script type="text/javascript" src="/JS/main.js"></script>
+</body>
+
+</html>

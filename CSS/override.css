@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap");
+
+/* font-family: 'Poppins', sans-serif !important; */
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+
+#main_component{
+
+    display: grid;    
+    justify-content: center !important;
+    
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+#search_field{
+  text-align: center !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.prompt{
+    font-family: 'Poppins', sans-serif !important;
+    letter-spacing: 1px;
+    text-transform: lowercase;    
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #455a64 !important;
+    text-align: center;
+}
+
+input{
+    border-radius: 5px !important;
+    /* width: 30rem !important; */
+    width: 40vw !important;
+    
+}
+
+
+.results {
+    text-transform: lowercase;
+    font-family: 'Poppins', sans-serif !important;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 1.1rem;
+    /* width: 30rem !important; */
+    width: 40vw !important;
+    
+}
+
+.name{
+    font-weight: 900 !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1rem;
+    background-color: #E7E9EB !important;
+    text-transform: lowercase;
+
+}
+
+.ui.search>.results .result .title {   
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400;
+    font-size: 1.1rem;
+    
+}
+
+
+/* Button to hide */
+#btn_fetch{   
+    visibility: hidden !important;
+}
+
+
+#hangeul{
+    font-size: 6rem;
+    font-family: 'Poppins', sans-serif !important;
+    color: #455a64 !important;
+    text-shadow: 5px 5px 2px #E7E9EB;
+    text-transform: lowercase;
+    margin-bottom: 2rem;
+    
+}
+
+#translation{
+    text-align: center;
+  
+}
+
+
+.search {
+    color: #424242 !important;
+}
+
+
+#devTxt{
+    font-family: 'Poppins', sans-serif !important;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #455a64 !important;
+    
+}
+
+a{
+    color: #424242 !important;
+}
+
+#footer_section{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;  
+  color: white;
+  text-align: center;
+}
+
+
+#btn_holder{
+    text-align: center;
+}
+
+.button{
+  background: transparent !important;
+}
+
+.fa-github{
+   font-size: 2.7rem;
+   background-color: #fff;
+}
+
+.fa-github:hover, .fa-house-heart:hover{
+  cursor: pointer;
+ }
+ 
+
+.fa-house-chimney{
+    font-size: 2.5rem;
+    color: #424242;
+   
+}
+
+
+
+/* media Query  */
+
+@media only screen and (max-width: 600px) {
+    input{
+        border-radius: 5px !important;
+        width: 22rem !important;   
+    }
+
+    .results {
+        text-transform: lowercase;
+        font-family: 'Poppins', sans-serif !important;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 1.1rem;
+        width: 22rem !important;  
+        
+    }
+
+    #hangeul{
+        margin-bottom: 1.5rem;
+        font-size: 8vw;
+        font-family: 'Poppins', sans-serif !important;
+        color: #455a64;
+        text-shadow: 5px 5px 2px #E7E9EB;
+        
+    }
+}
